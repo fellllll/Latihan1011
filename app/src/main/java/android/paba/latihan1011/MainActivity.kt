@@ -110,6 +110,7 @@ class MainActivity : AppCompatActivity() {
 
             }
 
+
             override fun completeTask(pos: Int) {
                 arTask.removeAt(pos)
                 TampilkanData()
